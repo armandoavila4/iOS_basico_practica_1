@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		475A0D6429602DDA008A5A8E /* practica1_calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica1_calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		475A0D6429602DDA008A5A8E /* Calculator 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		475A0D6729602DDA008A5A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		475A0D6929602DDA008A5A8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		475A0D6B29602DDA008A5A8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		475A0D6529602DDA008A5A8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				475A0D6429602DDA008A5A8E /* practica1_calculadora.app */,
+				475A0D6429602DDA008A5A8E /* Calculator 2.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		475A0D6329602DDA008A5A8E /* practica1_calculadora */ = {
+		475A0D6329602DDA008A5A8E /* Calculator 2.0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 475A0D7829602DDC008A5A8E /* Build configuration list for PBXNativeTarget "practica1_calculadora" */;
+			buildConfigurationList = 475A0D7829602DDC008A5A8E /* Build configuration list for PBXNativeTarget "Calculator 2.0" */;
 			buildPhases = (
 				475A0D6029602DDA008A5A8E /* Sources */,
 				475A0D6129602DDA008A5A8E /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = practica1_calculadora;
+			name = "Calculator 2.0";
 			productName = practica1_calculadora;
-			productReference = 475A0D6429602DDA008A5A8E /* practica1_calculadora.app */;
+			productReference = 475A0D6429602DDA008A5A8E /* Calculator 2.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 475A0D5F29602DDA008A5A8E /* Build configuration list for PBXProject "practica1_calculadora" */;
+			buildConfigurationList = 475A0D5F29602DDA008A5A8E /* Build configuration list for PBXProject "Calculator 2.0" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				475A0D6329602DDA008A5A8E /* practica1_calculadora */,
+				475A0D6329602DDA008A5A8E /* Calculator 2.0 */,
 			);
 		};
 /* End PBXProject section */
@@ -293,8 +293,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,8 +324,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		475A0D5F29602DDA008A5A8E /* Build configuration list for PBXProject "practica1_calculadora" */ = {
+		475A0D5F29602DDA008A5A8E /* Build configuration list for PBXProject "Calculator 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				475A0D7629602DDC008A5A8E /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		475A0D7829602DDC008A5A8E /* Build configuration list for PBXNativeTarget "practica1_calculadora" */ = {
+		475A0D7829602DDC008A5A8E /* Build configuration list for PBXNativeTarget "Calculator 2.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				475A0D7929602DDC008A5A8E /* Debug */,
